@@ -1538,6 +1538,9 @@ reservation
   padding: 45px 30px;
   background-color: #fff;
   border-radius: 5px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 
 }
 
