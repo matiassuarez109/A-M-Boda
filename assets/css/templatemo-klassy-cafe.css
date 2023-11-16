@@ -103,7 +103,7 @@ figcaption {
 
 .Img {
   display: flex;
-  width: 1000px;
+  width: 100%;
   height: 430px;
   position: relative;
 }
@@ -297,6 +297,19 @@ body {
   color: #fff;
 }
 
+@media (max-width: 390px){
+
+  .inner-content{
+  display: contents;
+  }
+}
+
+@media (max-width: 425px){
+
+  .inner-content{
+  display: contents;
+  }
+}
 @media (max-width: 991px) {
 
   html,
@@ -1538,6 +1551,9 @@ reservation
   padding: 45px 30px;
   background-color: #fff;
   border-radius: 5px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 
 }
 
