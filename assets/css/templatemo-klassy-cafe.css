@@ -297,20 +297,21 @@ body {
   color: #fff;
 }
 
-@media (max-width: 390px){
+@media (max-width: 390px) {
 
-  .inner-content{
-  display: contents;
+  .inner-content {
+    display: contents;
   }
 }
 
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
 
-  .inner-content{
-  display: contents;
+  .inner-content {
+    display: contents;
   }
 }
+
 @media (max-width: 991px) {
 
   html,
@@ -849,6 +850,8 @@ header
 }
 
 
+
+
 /* 
 ---------------------------------------------
 banner
@@ -913,6 +916,25 @@ banner
   overflow: hidden;
   position: relative;
   text-align: center
+}
+
+@media (min-width: 430px) {
+  .img-fill img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 390px) {
+  .img-fill img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-fill img{
+    height: auto;
+  }
+  
 }
 
 .img-fill img {
