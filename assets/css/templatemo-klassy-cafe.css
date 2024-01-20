@@ -190,6 +190,77 @@ figcaption {
   }
 }
 
+
+/*temporizador*/
+
+.Anii {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.timer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timer-item {
+  text-align: center;
+  color: #1e5a23;
+  font-size: 3em;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer-item span {
+  display: block;
+  font-size: 0.5em;
+}
+
+.timer-item:hover {
+  background-color: #2980b9;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Consulta de medios para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .timer-container {
+      width: 80%; /* Cambiar el ancho para pantallas más pequeñas */
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  .timer-container {
+      width: 100%;
+  }
+  
+  .timer-item {
+      font-size: 2em; /* Puedes ajustar el tamaño según tus preferencias */
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .timer-container {
+      width: 100%;
+  }
+  
+  .timer-item {
+      font-size: 2em; /* Puedes ajustar el tamaño según tus preferencias */
+  }
+}
+
+
+
+
 .Wp {
   position: fixed;
   right: 5px;
