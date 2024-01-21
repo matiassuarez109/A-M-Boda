@@ -1073,7 +1073,7 @@ banner
   text-align: center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color: #f50e0e;
+  color: #ffffff;
   /*flecha derecha*/
   z-index: 5;
   outline: none;
@@ -1463,7 +1463,12 @@ menu
 chefs
 ---------------------------------------------
 */
-
+/*.Crono{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}*/
 #dresscode{
   margin-top: 50px;
 }
