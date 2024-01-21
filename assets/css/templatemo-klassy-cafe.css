@@ -1070,11 +1070,18 @@ banner
   text-align: center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color: #FFF;
+  color: #ffffff; /*flecha derecha*/
   z-index: 5;
   outline: none;
   opacity: 0.3;
   transition: all .3s;
+}
+
+@media (max-width: 390px) {
+  .Modern-Slider .NextArrow{
+    width: 30px ;
+  }
+  
 }
 
 .Modern-Slider .NextArrow:hover {
@@ -1099,11 +1106,18 @@ banner
   text-align: center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color: #FFF;
+  color: #ffffff;/*flrcha izquerda*/
   z-index: 5;
   outline: none;
   opacity: 0.3;
   transition: all .3s;
+}
+
+@media (max-width: 390px) {
+  .Modern-Slider .PrevArrow{
+    width: 30px ;
+  }
+  
 }
 
 .Modern-Slider .PrevArrow:hover {
