@@ -1079,7 +1079,7 @@ banner
 
 @media (max-width: 390px) {
   .Modern-Slider .NextArrow{
-    width: 30px ;
+    width: 30px !important;
   }
   
 }
@@ -1115,7 +1115,7 @@ banner
 
 @media (max-width: 390px) {
   .Modern-Slider .PrevArrow{
-    width: 30px ;
+    width: 30px !important;
   }
   
 }
