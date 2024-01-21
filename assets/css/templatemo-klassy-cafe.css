@@ -1878,6 +1878,27 @@ footer
 
 }
 
+@media (max-width: 320px){
+  #logofoot{
+    display: flex;
+    
+  }
+}
+
+@media (max-width: 390px){
+  #logofoot{
+    display: flex;
+    
+  }
+}
+
+@media (max-width: 430px){
+  #logofoot{
+    display: flex;
+    
+  }
+}
+
 .logo {
   margin-bottom: 0px; /* Ajusta el margen inferior del logo según tus necesidades */
 }
