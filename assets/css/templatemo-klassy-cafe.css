@@ -100,7 +100,6 @@ figcaption {
 }
 
 
-
 .Img {
   display: flex;
   width: 100%;
@@ -137,7 +136,7 @@ figcaption {
 .go-top-button {
   width: 0rem;
   height: 0rem;
-  background-color: #436c1a;
+  background-color: #67734c;
   border-radius: 50%;
   cursor: pointer;
   transition: .2s;
@@ -195,7 +194,7 @@ figcaption {
 
 .Anii {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #fffdfa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,7 +212,7 @@ figcaption {
 
 .timer-item {
   text-align: center;
-  color: #1e5a23;
+  color: #67734c;
   font-size: 3em;
   padding: 10px;
   border-radius: 5px;
@@ -226,7 +225,7 @@ figcaption {
 }
 
 .timer-item:hover {
-  background-color: #CBDDB5;
+  background-color: #d1dbb0;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -316,9 +315,9 @@ hgroup {
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'vollkorn';
   font-weight: 400;
-  background-color: #fff;
+  background-color: #fffdfa;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -356,8 +355,8 @@ global styles
 */
 html,
 body {
-  background: #fff;
-  font-family: 'Poppins', sans-serif;
+  background: #fffdfa;
+  font-family: 'vollkorn';
   cursor: url(/assets/images/corazonmuose.png), auto;
 }
 
@@ -592,7 +591,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu:after {
-  font-family: FontAwesome;
+  font-family: 'vollkorn';
   content: "\f107";
   font-size: 12px;
   color: #2a2a2a;
@@ -959,7 +958,7 @@ banner
 }
 
 #top .left-content h4 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'vollkorn';
   color: #fff;
   font-size: 54px;
   font-weight: 700;
@@ -1245,6 +1244,10 @@ ul.slick-dots {
 about
 ---------------------------------------------
 */
+#imgg{
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
 
 #about {
   margin-top: 20px;
@@ -1264,6 +1267,7 @@ about
 
 #about .left-text-content p {
   margin-bottom: 25px;
+  text-align: justify;
 }
 
 #about .right-content {
@@ -1460,7 +1464,7 @@ menu
 
 /*
 ---------------------------------------------
-chefs
+card
 ---------------------------------------------
 */
 
@@ -1494,7 +1498,6 @@ chefs
 
 #chefs .chef-item {
   text-align: center;
-  border: 1px solid #afafaf;
   padding: 5px;
   transition: all .5s;
   border-radius: 3px;
@@ -1944,7 +1947,7 @@ footer
 footer {
   /*margin-top: 60px;*/
   padding: 10px 0px;
-  background-color: #44493F;
+  background-color: #67734c;
 
 }
 
