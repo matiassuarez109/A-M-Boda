@@ -1073,18 +1073,18 @@ banner
   font-size: 36px;
   font-family: 'FontAwesome';
   color: #ffffff;
-  /*flecha derecha*/
+  /*flecha derecha++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
   z-index: 5;
   outline: none;
   opacity: 0.3;
   transition: all .3s;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 430px) {
   .Modern-Slider .NextArrow {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: none !important;
     margin: auto;
   }
 
@@ -1113,16 +1113,19 @@ banner
   font-size: 36px;
   font-family: 'FontAwesome';
   color: #ffffff;
-  /*flrcha izquerda*/
+  /*flrcha izquerda+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
   z-index: 5;
   outline: none;
   opacity: 0.3;
   transition: all .3s;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 430px) {
   .Modern-Slider .PrevArrow {
-    width: 30px !important;
+    max-width: 100%;
+    height: auto;
+    display: none !important;
+    margin: auto;
   }
 
 }
@@ -2169,3 +2172,4 @@ responsive
     opacity: 0;
   }
 }
+
