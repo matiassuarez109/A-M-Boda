@@ -996,6 +996,17 @@ banner
     height: 500px;
   }
 }
+@media (min-width: 280px){
+  .img-fill img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 320px){
+  .img-fill img {
+    height: 400px;
+  }
+}
 
 @media (min-width: 390px) {
   .img-fill img {
