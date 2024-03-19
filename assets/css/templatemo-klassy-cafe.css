@@ -996,13 +996,14 @@ banner
     height: 500px;
   }
 }
-@media (min-width: 280px){
+
+@media (min-width: 280px) {
   .img-fill img {
     height: 350px;
   }
 }
 
-@media (min-width: 320px){
+@media (min-width: 320px) {
   .img-fill img {
     height: 400px;
   }
@@ -1258,7 +1259,7 @@ ul.slick-dots {
 about
 ---------------------------------------------
 */
-#imgg{
+#imgg {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -1483,15 +1484,16 @@ card
 */
 
 
-#dresscode{
+#dresscode {
   margin-top: 50px;
 }
+
 .dress {
   max-width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  
+
 }
 
 #chefs {
@@ -1927,6 +1929,19 @@ footer
 
 }
 
+@media (max-width: 280px) {
+  #imgfo {
+    width: 30px;
+
+  }
+
+  .Ms {
+    position: absolute;
+    right: 20px;
+
+  }
+}
+
 @media (max-width: 320px) {
   #logofoot {
     display: flex;
@@ -2024,6 +2039,14 @@ footer .right-text-content ul li a:hover {
 responsive
 --------------------------------------------- 
 */
+
+@media (max-width: 280px) {
+  #contact {
+    display: flex;
+    justify-content: center;
+    width: 297px;
+  }
+}
 
 @media (max-width: 390px) {
   #contact {
@@ -2183,4 +2206,3 @@ responsive
     opacity: 0;
   }
 }
-
